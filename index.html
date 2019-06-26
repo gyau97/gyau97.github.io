@@ -18,29 +18,29 @@
 
 <body>
 
-	<div class="container-fluid">
-
-	</div>
+	<div id="root"></div>
 
 	<script type="text/babel">
 		class test extends React.Component{
 			render(){
 				return(
-					<div class="form-group">
-						<input type="text" class="form-control" id="item" placeholder="物品">
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="sellingPrice" placeholder="出售予商人的單價">
-					</div>
-					<div>
-						<button type="button" class="btn btn-outline-dark" id="priceUpdate" onClick="update()">更新</button>
+					<div class="container-fluid">
+						<div class="form-group">
+							<input type="text" class="form-control" id="item" placeholder="物品">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="sellingPrice" placeholder="出售予商人的單價">
+						</div>
+						<div>
+							<button type="button" class="btn btn-outline-dark" id="priceUpdate" onClick="update()">更新</button>
+						</div>
 					</div>
 				);
 			}
 		}
 
 		ReactDOM.render(
-			<test />,document.getElementByClass('container-fluid')
+			<test />,document.getElementById('root')
 		);
 	</script>
 

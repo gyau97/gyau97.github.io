@@ -3,17 +3,13 @@
   color: #ffffff;
 }
 
-.parallax1, .parallax2, .parallax3 {
+.parallax2, .parallax3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
-}
-
-.parallax1 {
-  background-image: url("middle.png");
-  color: #ffffff;
+  width: 100%;
 }
 
 .parallax2 {
@@ -25,12 +21,19 @@
 }
 
 .introbox, .box2, .box3 {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .introbox {
   height: 100px;
   text-align: center;
+}
+
+.introbox span {
+  position: absolute;
+  padding-top: 35px;
+  letter-spacing: 3px;
+  font-size: 20px;
 }
 
 .box2 {

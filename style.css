@@ -3,25 +3,44 @@
   color: #ffffff;
 }
 
-.parallax1, .parallax2 {
+.parallax1, .parallax2, .parallax3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 300px;
 }
 
 .parallax1 {
-  /* The image used */
-  background-image: url("top.png");
-  /*background-image: url("02.JPG");
-  /* Set a specific height */
-  min-height: 500px;
+  background-image: url("middle.png");
+  color: #ffffff;
 }
 
 .parallax2 {
-  /* The image used */
   background-image: url("middle.png");
-  /*background-image: url("02.JPG");
-  /* Set a specific height */
-  min-height: 500px;
+}
+
+.parallax3 {
+  background-image: url("middle.png");
+}
+
+.introbox, .box2, .box3 {
+  background-color: #ffffff;
+}
+
+.introbox {
+  height: 100px;
+  text-align: center;
+}
+
+.box2 {
+  height: 500px;
+}
+
+.box3 {
+  height: 300px;
+}
+
+.card {
+  height: auto;
 }

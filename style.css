@@ -2,3 +2,16 @@
   background-color: #4700b3;
   color: #ffffff;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("01.JPG");
+  background-image: url("02.JPG");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

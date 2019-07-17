@@ -32,6 +32,7 @@
 .introbox span {
   position: absolute;
   padding-top: 35px;
+  vertical-align: middle;
   letter-spacing: 3px;
   font-size: 20px;
 }
